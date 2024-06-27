@@ -1,0 +1,1 @@
+import{j as s}from"./index-BWpTvG5i.js";import{L as a}from"./Layout-jwxuBo-x.js";function t(){return s.jsxs(a,{children:[s.jsx("img",{src:"/front-red-car.png",className:"w-full"}),s.jsx("div",{className:"w-full",children:s.jsx("img",{src:"/badge.png",className:"absolute mx-auto inset-x-0 -mt-[7%] w-1/3"})})]})}export{t as LandingPage};
