@@ -1,14 +1,20 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Halden Galway</title>
-    <script type="module" crossorigin src="/assets/index-BPfakGPH.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-II7X_Ifv.css">
+    
+    <!-- Redirect script for GitHub Pages SPA -->
+    <script type="text/javascript">
+      // Store the path and redirect to index.html
+      sessionStorage.redirect = location.href;
+    </script>
+    
+    <meta http-equiv="refresh" content="0;URL='/'"></meta>
   </head>
   <body>
-    <div id="root"></div>
+    <!-- GitHub Pages will redirect to index.html -->
   </body>
 </html>
